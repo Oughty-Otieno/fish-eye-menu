@@ -1,0 +1,17 @@
+<div height="450px" apply="demo.menu.fisheye_menu.FisheyeMenuController">
+	<style>
+		.fisheyeDemo { 
+			margin : 5px 40px; 
+			position : relative;
+		}
+	</style>
+	<fisheyebar id="fisheyebar" sclass="fisheyeDemo" 
+		itemWidth="80" itemHeight="80" itemMaxHeight="160" itemMaxWidth="160">
+		<fisheye label="Folder" image="/widgets/menu/fisheye_menu/img/FolderABlue-128x128.png" />
+		<fisheye label="Reading Glasses" image="/widgets/menu/fisheye_menu/img/ReadingGlass-128x128.png" />
+		<fisheye label="Project" image="/widgets/menu/fisheye_menu/img/Briefcase-128x128.png" />
+		<fisheye label="Email" image="/widgets/menu/fisheye_menu/img/MailboxFlag-128x128.png" />
+		<fisheye label="Globe" image="/widgets/menu/fisheye_menu/img/Globe-128x128.png" />
+		<fisheye label="Spyglass" image="/widgets/menu/fisheye_menu/img/Spyglass-128x128.png" />
+	</fisheyebar>
+</div>

@@ -1,0 +1,7 @@
+<vlayout apply="demo.menu.fisheye_menu.FisheyeMenuConfigController">
+	Orientation:
+	<radiogroup id="orientation" orient="vertical"/>
+	<separator />
+	Attach edge:
+	<radiogroup id="attachEdge" orient="vertical"/>
+</vlayout>
