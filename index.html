@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+    <title>Fisheye menu</title>
+    <link rel="stylesheet" href="class.css" media="screen">
+
+<style>
+
+span{
+    display:none;
+}
+
+#side-menu:hover {
+    display:inline-block;
+}
+#side-menu:hover span{
+    display:inline-block;
+}
+</style>
+  </head>
+  <body>
+    <div id='main-container'>
+      <ul class='fisheye-menu'>
+
+        <li id ="side-menu">
+          <a href=''>
+            <img src='images/bread.jpg'>
+	    <span>Bread </span
+          </a>
+        </li>
+        <li id ="side-menu">
+          <a href=''>
+            <img src='images/coffee-beans.jpg'>
+	    <span>Kenyan Coffee</span
+          </a>
+        </li>
+        <li id ="side-menu">
+          <a href=''>
+            <img src='images/hamburger.jpg'>
+            <span>Hamburger</span
+          </a>
+        </li>
+        <li id ="side-menu">
+          <a href=''>
+            <img src='images/pancakes.jpg'>
+            <span>Pancakes</span
+          </a>
+        </li>
+        <li id ="side-menu">
+          <a href=''>
+            <img src='images/steak.jpg'>
+            <span>Steak</span
+          </a>
+	
+        </li>
+
+      </ul>
+    </div>
+
+  <script src='main.js'></script>
+  <script>
+    fisheyeMenu({
+      growRatio: 5.0,
+      verticalLimit: 10,
+      horizontalLimit: 1.5
+    });
+  </script>
+  </body>
+</html>
